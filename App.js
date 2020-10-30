@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, FlatList, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Button, FlatList, Text, TextInput, View } from 'react-native';
 import {
   GoogleSignin,
   GoogleSigninButton,
@@ -48,7 +48,7 @@ export default App = () => {
   useEffect(() => {
     GoogleSignin.configure(
       {
-        webClientId:'64702379780-t9a9uobgv383n0p9l29kmoqhdggs1j02.apps.googleusercontent.com'
+        webClientId:'1004492996288-k5a4rm8g99t67s4p6l4op6np1gb9nd47.apps.googleusercontent.com'
       }
     )
     fetch('https://reactnative.dev/movies.json')

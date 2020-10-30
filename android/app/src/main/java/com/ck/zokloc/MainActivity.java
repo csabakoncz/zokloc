@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.ck.zokloc;
 
 import com.facebook.react.ReactActivity;
 
